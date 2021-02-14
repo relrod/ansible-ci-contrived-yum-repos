@@ -1,0 +1,14 @@
+This repository contains rpms for testing how the yum/dnf modules handle:
+* multiple arches of the same package
+* virtual packages
+
+Install pkgs:
+  - rpmdevtools
+  - createrepo
+
+Then build everything with:
+./build-rpms.sh
+
+It should work on any RHEL-ish container.
+
+When successful, upload the entire directory tree to S3.

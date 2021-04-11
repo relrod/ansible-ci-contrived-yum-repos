@@ -9,6 +9,10 @@ License:        PublicDomain
 Requires:       nonexistent-package
 %endif
 
+%if "%{version}" == "1.2.3.4"
+Requires:       nonexistent-package
+%endif
+
 %description
 Useless
 

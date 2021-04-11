@@ -18,6 +18,6 @@ It builds three versions of `broken-a`, 1.2.3, 1.2.3.4, 1.2.4, 2.0.0.
 
 `broken-c` depends on `broken-a-1.2.4`.
 
-`broken-d` depends on `broken` (no version constraint).
+`broken-d` depends on `broken-a` (no version constraint).
 
 Cue fun.
